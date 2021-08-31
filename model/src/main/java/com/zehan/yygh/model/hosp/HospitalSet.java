@@ -22,7 +22,7 @@ public class HospitalSet extends BaseEntity {
 	private static final long serialVersionUID = 1L;
 
 	@ApiModelProperty(value = "医院名称")
-	@TableField("hosname")
+	@TableField("hosname")  // 在table中的名字
 	private String hosname;
 
 	@ApiModelProperty(value = "医院编号")
