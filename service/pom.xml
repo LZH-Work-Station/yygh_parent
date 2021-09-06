@@ -26,6 +26,11 @@
         </dependency>
         <dependency>
             <groupId>com.zehan</groupId>
+            <artifactId>common_util</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zehan</groupId>
             <artifactId>model</artifactId>
             <version>1.0</version>
         </dependency>
