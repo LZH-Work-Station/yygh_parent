@@ -21,6 +21,7 @@ import java.util.Random;
 @RestController
 @RequestMapping(value = "/admin/hosp/hospitalSet")   // 总路径
 @Api(tags = "医院设置管理")
+@CrossOrigin
 public class HospitalSetController {
 
     @Autowired

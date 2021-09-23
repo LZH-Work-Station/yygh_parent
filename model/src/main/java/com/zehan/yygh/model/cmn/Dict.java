@@ -62,6 +62,7 @@ public class Dict {
     @TableField("dict_code")
     private String dictCode;
 
+    // 这个字段在表中没有 所以需要TableField(exist=false)
     @ApiModelProperty(value = "是否包含子节点")
     @TableField(exist = false)
     private boolean hasChildren;
