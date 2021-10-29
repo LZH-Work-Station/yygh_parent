@@ -55,6 +55,10 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
         <!--&lt;!&ndash; 服务调用feign &ndash;&gt;-->
         <!--<dependency>-->
         <!--    <groupId>org.springframework.cloud</groupId>-->
