@@ -1,4 +1,4 @@
-package com.zehan.yygh.hosp.controller;
+package com.zehan.yygh.hosp.controller.api;
 
 import com.zehan.yygh.hosp.service.HospitalService;
 import io.swagger.annotations.Api;

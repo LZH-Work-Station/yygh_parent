@@ -12,7 +12,7 @@ import java.util.Map;
 
 @Service
 @Slf4j
-public class HostpitalServiceImpl implements HospitalService {
+public class HospitalServiceImpl implements HospitalService {
     @Autowired
     private HospitalRepository hospitalRepository;
 
